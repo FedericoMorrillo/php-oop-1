@@ -16,7 +16,18 @@ $pftc = new Movie('Pirates of the caribbean', '8', '2003', 'action/adventure');
 
 <body>
 
-
+    <div>
+        <?php
+        //richiamiamo il metodo per stampare in pagina
+        $lotr->showInfo();
+        ?>
+    </div>
+    <div>
+        <?php
+        //richiamiamo il metodo per stampare in pagina
+        $pftc->showInfo();
+        ?>
+    </div>
 </body>
 
 </html>

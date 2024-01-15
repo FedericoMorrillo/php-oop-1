@@ -22,4 +22,15 @@ class Movie
         $this->year = $_year;
         $this->genre = $_genre;
     }
+
+    //metodo
+    public function showInfo()
+    {
+        //stampa a schermo le prorietà delle istanze
+        echo "Title: {$this->title}" . " ";
+        echo "Genre: {$this->genre}" . " ";
+        echo "Lenguage: {$this->original_language}" . " ";
+        echo "Vote: {$this->vote}" . " ";
+        echo "Relese date: {$this->year}" . " ";
+    }
 }
